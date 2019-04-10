@@ -6,7 +6,7 @@
     "test": "tests"
   },
   "scripts": {
-    "api-testproduction": "newman run tests/p2.json --reporter-junit-export newman.xml"
+    "api-testproduction": "newman run tests/p2.json --reporters junit --reporter-junit-export newman.xml"
   },
   "author": "Carles Llorca",
   "dependencies": {
